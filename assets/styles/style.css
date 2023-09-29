@@ -1,0 +1,21 @@
+h1 {
+    color: rgb(53, 226, 56);
+}
+
+.title {
+    font: size 45px;
+    line-height: normal;
+    color: blue;
+}
+
+.description {
+    font: size 55px;
+    line-height: normal;
+    color: blueviolet;
+    font-style: italic;
+}
+
+.img {
+    width: 500px;
+    height: 300px;
+}
