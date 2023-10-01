@@ -1,0 +1,93 @@
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-Bold.ttf);
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Open Sans', sans-serif;
+    src: url(../fonts/OpenSans-SemiBold.ttf);
+    font-weight: 600;
+}
+
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: #222222;
+    font-size: 48px;
+    line-height: 36px;
+    font-weight: bold;
+}
+
+.title {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+}
+
+p {
+    font-weight: 700;
+}
+
+.box {
+    /* margin: 50px; */
+    border: 2px solid yellow;
+    padding: 10px;
+    display: flex;
+    
+}
+
+.box-desc {
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color: #7D7987;
+}
+
+h1,
+h2,
+p {
+    margin: 0;
+}
+
+.task {
+    color: coral;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 80px;
+
+}
+
+.bot {
+    width: 200px;
+    height: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.bottom {
+    /* width: 100px;
+    height: 30px; */
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #b42727;
+    border-radius: 10px;
+    background-color: rgb(179, 44, 112);
+}
+
+a {
+    text-decoration: none ;
+    color: cornflowerblue;
+    font-size: 16px;
+    line-height: 20px;
+}
